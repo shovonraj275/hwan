@@ -1,0 +1,47 @@
+p{
+    /* width: 100px;
+    height: 100px; */
+    border: 5px solid;
+    animation-name: en;
+    animation-duration: 8s;
+  position: relative;
+  animation-iteration-count: infinite;
+
+}
+
+
+
+
+
+@keyframes en {
+    0%{
+      border-top-color: red;        
+    }
+    
+    25%{
+        border-right-color: green;
+       
+    }
+    
+    50%{
+        border-bottom-color: yellow;
+    }
+    75%{
+       border-left-color: black;
+       
+    }
+    100%{
+        border-top-color: rgb(225, 209, 209);
+        
+    }
+    
+}
+
+/* 
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  } */
